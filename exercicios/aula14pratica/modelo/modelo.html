@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercicio</title>
+    <title>Contador</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Vamos contar!</h1>
     </header>
 
     <section>
-        <div>
-            testando...
+        <div id="dados">
+            Início:
+            <input type="number" id="ini" name="start"> <br>
+            Fim:
+            <input type="number" name="end" id="fim"> <br>
+            Passo:
+            <input type="number" name="pass" id="passo">
+            <br>
+            <input type="button" value="Contar" id="botao" onclick="contar()">
         </div>
-        <div>
-            Olá
+        <div id="res">
+            Preparando a contagem...
         </div>
     </section>
 
