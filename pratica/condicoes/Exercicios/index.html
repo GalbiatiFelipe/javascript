@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições</title>
+</head>
+<body>
+    <header>
+        <h1>Condições em JavaScript</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Uma questão de geografia</h2>
+            <p>
+                Você sabe qual é o maior país em território do planeta?
+            </p>
+            <div>
+                <label for="idpais">Digite a resposta:</label>
+                <input type="text" name="pais" id="idpais">
+                <input type="button" value="Verificar" onclick="geografia()">
+            </div>
+            <div id="res">
+                ...
+            </div>
+        </section>
+
+        <section id="idade">
+            <h2>Verificando idade</h2>
+            <div>
+                <p>
+                    <label for="idano">Ano de nascimento:</label>
+                    <input type="number" name="ano" id="idano">
+                </p>
+                <p>
+                    Sexo:
+                    <input type="radio" name="sex" id="masc">
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="sex" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+                <input type="button" value="Verificar" onclick="idadever()">
+            </div>
+            <div id="res">
+                <p>...</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
