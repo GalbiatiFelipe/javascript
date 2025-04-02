@@ -19,5 +19,18 @@ function idadever() {
     var data = new Date()
     var ano = data.getFullYear()
     var nasc = document.getElementById('idano')
-    var sex = document.getElementsByName('sex')
+    var res1 = document.getElementById('res1')
+
+    if (nasc.value.length == 0 || nasc.value > ano) {
+        alert('Ano de nascimento inválido')
+    } else {
+        var idade = ano - Number(nasc.value)
+        var sex = document.getElementsByName('sex')
+    }
+    if (sex[0].checked) {
+        var genero = 'Homem'
+    } else if (sex[1].checked){
+        genero = 'Mulher'
+    }
+    res1.innerHTML = `<p>${genero} de ${idade} anos.</p>`
 }
