@@ -31,9 +31,17 @@ section {
     margin-bottom: 10px;
 }
 
+div#finalizacao {
+    margin-bottom: 10px;
+}
+
 select {
     margin-bottom: 5px;
     width: 150px;
+}
+
+div#res p {
+    margin-bottom: 5px;
 }
 
 footer {
