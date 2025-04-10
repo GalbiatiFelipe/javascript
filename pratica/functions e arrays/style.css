@@ -36,6 +36,10 @@ select {
     width: 170px;
 }
 
+div#res p {
+    margin-bottom: 10px;
+}
+
 footer {
     color: white;
     text-align: center;
