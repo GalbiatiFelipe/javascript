@@ -88,4 +88,5 @@ function finalizador() {
         res.innerHTML += `<p>*A soma de todos os valores é ${soma}.</p>`
         res.innerHTML += `<p>*A média de todos os valores é ${media}.</p>`
     }
+    
 }

@@ -40,9 +40,20 @@ div#res p {
     margin-bottom: 10px;
 }
 
+#limpar {
+    margin-top: 10px;
+}
+
 footer {
     color: white;
     text-align: center;
     font-style: italic;
     margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    section {
+        width: 100vw;
+        height: 100vh;
+    }
 }
