@@ -6,7 +6,11 @@ while (c <= 5) {
 }
 */
 console.log('Vai começar..')
-for (var c = 1; c<=9;c++) {
-    console.log(`Passo ${c}`)
+let numero = 10
+let termo = 0
+for (var c = 1; c<=10;c++) {
+    termo = termo + numero
+   
+    console.log(termo)
 }
 console.log('FIM!')

@@ -6,35 +6,12 @@
     <title>Repetições</title>
 </head>
 <body>
-    <header>
-        <h1>Repetições em JavaScript</h1>
-    </header>
-    <main>
-        <section>
-            <h2>Contando automaticamente</h2>
-
-            <div>
-                <p><strong>Siga as instruções abaixo:</strong></p>
-                <p>
-                    1-Primeiro digite o número no qual a contagem irá se iniciar. <br> 2-Em segundo digite o número no qual a contagem vai terminar. <br>
-                    3-Por fim digite o número que determinará o intervalo da contagem.
-                </p>
-
-                <p>
-                    Início <input type="number" name="numero" id="ininum"> Final: <input type="number" name="numero" id="finnum"> <br>
-                </p>
-
-                    Intervalo: <input type="number" name="num" id="idinter">
-                <p>
-                    <input type="button" value="Contar" onclick="contar()">
-                </p>
-            </div>
-            <div id="res">
-                ...
-            </div>
-        </section>
-    </main>
-
+    <h1>Tabuada</h1>
+    <h2>Gere a tabuada de qualquer número.</h2>
+    <label for="inum">Digite o número:</label>
+    <input type="number" id="inum">
+    <button onclick="gerarTabuada()">Gerar</button>
+    <p id="res"></p>
     <script src="script.js"></script>
 </body>
 </html>
